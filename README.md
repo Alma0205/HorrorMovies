@@ -33,4 +33,4 @@ Ambas colaboran de forma complementaria en el diseño, estructura y desarrollo d
 ## 🚀 Guía rápida de ejecución
 1. Clona el repositorio:
    ```bash
-  [ git clone https://github.com/Alma0205/HorrorMovies.git]
+   git clone https://github.com/Alma0205/HorrorMovies.git
