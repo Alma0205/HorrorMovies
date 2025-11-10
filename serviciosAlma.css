@@ -1,0 +1,199 @@
+body {
+   
+    background-image: url('images/nubecitas.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+    background-repeat: no-repeat; 
+    background-color: #000000; 
+
+
+    color: #f0f0f0; 
+    
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    
+    font-family: "Audiowide", sans-serif;
+}
+
+
+.accent-red {
+    color: #ff0000;
+    text-shadow: 0 0 5px rgba(255, 0, 0, 0.7); 
+}
+
+
+#results-container {
+    flex-grow: 1; 
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+h2 {
+    text-align: center;
+    margin: 50px auto 30px auto;
+    font-size: 3.5em; 
+    
+
+    color: #ffffff;
+    text-shadow: 
+        0 0 5px #ff0000, 
+        0 0 10px #ff0000, 
+        0 0 20px #ff0000, 
+        0 0 30px #c90000; 
+    
+
+    border: 3px solid #330000; 
+    padding: 10px 25px;
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.4); 
+}
+
+
+.menu-nav {
+    background-color: rgba(0, 0, 0, 0.9); 
+    border-bottom: 2px solid #330000;
+    padding: 20px 0;
+}
+.menu-lista a {
+    color: #e0e0e0;
+    font-size: 20px; 
+    text-transform: uppercase; 
+}
+
+.menu-lista a:hover {
+    color: #ff0000;
+    text-shadow: 0 0 5px #ff0000;
+}
+
+
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 50px auto 30px auto; 
+    max-width: 600px;
+}
+
+#artist-input {
+    padding: 12px;
+    font-size: 1.1em;
+    flex-grow: 1;
+    
+
+    border: 3px solid #ff0000; 
+    background-color: #1a1a1a; 
+    color: #fff;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
+}
+
+#search-button {
+    padding: 12px 25px;
+    font-size: 1.1em;
+    background-color: #a31717;
+    color: #000; 
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s, box-shadow 0.2s;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#search-button:hover {
+    background-color: #802727; 
+    box-shadow: 0 0 10px #752a2a;
+}
+
+
+.album-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px auto;
+    list-style: none;
+    padding: 0;
+}
+
+.album-item {
+    background-color: rgba(10, 0, 0, 0.9);
+    border: 1px solid #333; 
+    padding: 15px;
+    
+
+    width: 30%; 
+    min-width: 250px;
+    
+    text-align: center;
+    transition: transform 0.3s, border-color 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.album-item:hover {
+    transform: scale(1.03);
+    border-color: #ff0000;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.7); 
+}
+
+.album-item strong {
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.album-cover {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.placeholder-text {
+    font-size: 1.5em;
+    color: #aaaaaa; 
+}
+
+.footer {
+    background-color: #111;
+    color: #888;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    margin-top: auto;
+}
+
+.footer-enlaces {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+.footer-enlaces li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer-enlaces a {
+    color: #888;
+    text-decoration: none;
+}
+
+.footer-enlaces li :hover {
+    color: #cfcdcd;
+}
+.p {
+  font-size: 5px;
+}
+
+.accent-red {
+    color: #ff0000;
+    text-shadow: 0 0 5px rgba(255, 0, 0, 0.7);}
