@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios - NASA Space Journal 🚀</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="ServiciosPamela.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">🚀 NASA Space Journal</div>
+        <nav>
+            <a href="home.html" class="nav-link">🏠 Volver al Inicio</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="api-section">
+            <h1>🌌 Imagen Universal del Día</h1>
+            <p class="descripcion">Explora el universo con la NASA</p>
+
+            <button id="btn-cargar-nasa" class="btn-primary">
+                🔭 Cargar Imagen del universo
+            </button>
+
+            <div id="resultado-api" class="resultado-container">
+                <p class="mensaje-inicial">Haz clic en el botón para descubrir el universo ✨</p>
+            </div>
+        </section>
+
+        <section class="journal-section">
+
+            <h2>📝 Mi Journal Universal</h2>
+            <p class="descripcion">Escribe tus reflexiones sobre el universo</p>
+
+            <div class="journal-form">
+                <input type="text" id="titulo-reflexion" placeholder="Título de tu reflexión..." class="input-titulo">
+                <textarea id="texto-reflexion" placeholder="¿Qué te inspira del universo? Escribe tus pensamientos..."
+                    class="textarea-reflexion"></textarea>
+                <button id="btn-guardar-reflexion" class="btn-secondary">
+                    💾 Guardar Reflexión
+                </button>
+            </div>
+
+            <div class="reflexiones-container">
+                <h3>🌟 Mis Reflexiones Guardadas</h3>
+                <div id="lista-reflexiones">
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Pam | Powered by NASA API 🚀</p>
+    </footer>
+
+    <script src="ServiciosPamela.js"></script>
+</body>
+
+</html>
